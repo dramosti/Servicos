@@ -14,5 +14,8 @@ namespace HLPServices.Services
     {
         [OperationContract]
         bool SetLogError(Log log);
+
+        [OperationContract]
+        List<VersoesModel> GetVersoesMagnificus();
     }
 }
